@@ -12,7 +12,7 @@ public class UserController {
 
   @PostMapping("/create")
   public void create(@RequestBody UserModel userModel) { 
-        System.out.println(userModel.name);
+        System.out.println(userModel.getName());
   }
   
 }
